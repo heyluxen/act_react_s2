@@ -1,0 +1,32 @@
+.tarjeta {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 8px;
+  transition: all 0.3s ease;
+}
+
+.tarjeta:hover {
+  transform: translateY(-4px);
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.descripcion {
+  margin: 8px 0;
+  color: #444;
+}
+
+.categoria {
+  font-size: 0.9rem;
+  font-style: italic;
+}
